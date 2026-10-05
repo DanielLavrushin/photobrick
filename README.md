@@ -4,6 +4,9 @@ PhotoBrick turns a photo into a buildable mosaic of round 1x1 tiles (LEGO® part
 it uses is one you can actually buy, and it gives you the parts list, shopping-cart exports and
 printable panel-by-panel instructions to build it.
 
+<img width="1354" height="866" alt="image" src="https://github.com/user-attachments/assets/ffde9839-b5d0-4d20-a90b-5f9656b80963" />
+
+
 - **Your photo stays on your device.** All image processing runs in your browser. The photo is never
   uploaded; a share link carries only the finished grid of colour ids.
 - **Real, buyable colours.** The palette is built from Rebrickable's data and limited to colours that
