@@ -1,0 +1,63 @@
+# PhotoBrick web server, behind Caddy (see deploy/Caddyfile).
+#
+# Install:
+#   sudo install -m 0755 out/photobrick /usr/local/bin/photobrick
+#   sudo install -m 0644 deploy/photobrick.service /etc/systemd/system/photobrick.service
+#   sudo systemctl daemon-reload && sudo systemctl enable --now photobrick
+# Check:   systemctl status photobrick; journalctl -u photobrick -f; curl -s 127.0.0.1:8080/healthz
+# Audit:   systemd-analyze security photobrick
+
+[Unit]
+Description=PhotoBrick web server
+Documentation=https://github.com/DanielLavrushin/photobrick
+After=network.target
+
+[Service]
+Type=exec
+ExecStart=/usr/local/bin/photobrick -addr 127.0.0.1:8080
+Restart=on-failure
+RestartSec=2s
+# The server drains in-flight requests for up to 10 s on SIGTERM.
+TimeoutStopSec=20s
+
+# A throwaway system user per start; nothing on disk belongs to it.
+DynamicUser=yes
+# For share storage later: /var/lib/photobrick, owned by the dynamic user, kept across restarts.
+StateDirectory=photobrick
+UMask=0077
+
+# Hardening. The binary is static, reads nothing from disk and only listens on TCP.
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+AmbientCapabilities=
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+ProtectProc=invisible
+ProcSubset=pid
+PrivateUsers=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+# Only Caddy on this host talks to the server, and the server calls out to nothing. Drop these two
+# lines if it must be reachable from other machines (a different -addr) or fetch anything remote.
+IPAddressDeny=any
+IPAddressAllow=localhost
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallFilter=~@privileged @resources
+# Fail a filtered syscall with EPERM instead of killing the process.
+SystemCallErrorNumber=EPERM
+
+[Install]
+WantedBy=multi-user.target

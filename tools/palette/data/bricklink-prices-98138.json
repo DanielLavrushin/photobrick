@@ -1,0 +1,162 @@
+{
+  "source": "BrickLink price guide pages for part 98138 (one per colour, viewed without login, prices shown in DKK): \"Last 6 Months Sales\" and \"Current Items for Sale\", new condition; qty-avg = quantity-weighted average price per piece. A sample of 14 colours; the other colours use blEurDefault.",
+  "date": "2026-09-24",
+  "currency": "DKK",
+  "blPart": "98138",
+  "rows": [
+    {
+      "blColorId": 1,
+      "blColorName": "White",
+      "soldNewTimes": 4382,
+      "soldNewQty": 373952,
+      "soldNewQtyAvgDkk": 0.16,
+      "stockNewLots": 4430,
+      "stockNewQty": 2270055,
+      "stockNewMinDkk": 0.02,
+      "stockNewQtyAvgDkk": 0.29
+    },
+    {
+      "blColorId": 2,
+      "blColorName": "Tan",
+      "soldNewTimes": 2174,
+      "soldNewQty": 104454,
+      "soldNewQtyAvgDkk": 0.24,
+      "stockNewLots": 2743,
+      "stockNewQty": 840030,
+      "stockNewMinDkk": 0.01,
+      "stockNewQtyAvgDkk": 0.35
+    },
+    {
+      "blColorId": 5,
+      "blColorName": "Red",
+      "soldNewTimes": 2604,
+      "soldNewQty": 88140,
+      "soldNewQtyAvgDkk": 0.25,
+      "stockNewLots": 4084,
+      "stockNewQty": 676940,
+      "stockNewMinDkk": 0.05,
+      "stockNewQtyAvgDkk": 0.38
+    },
+    {
+      "blColorId": 11,
+      "blColorName": "Black",
+      "soldNewTimes": 6602,
+      "soldNewQty": 822597,
+      "soldNewQtyAvgDkk": 0.2,
+      "stockNewLots": 4436,
+      "stockNewQty": 1609610,
+      "stockNewMinDkk": 0.03,
+      "stockNewQtyAvgDkk": 0.38
+    },
+    {
+      "blColorId": 55,
+      "blColorName": "Sand Blue",
+      "soldNewTimes": 466,
+      "soldNewQty": 19733,
+      "soldNewQtyAvgDkk": 0.44,
+      "stockNewLots": 1401,
+      "stockNewQty": 88850,
+      "stockNewMinDkk": 0.07,
+      "stockNewQtyAvgDkk": 0.54
+    },
+    {
+      "blColorId": 59,
+      "blColorName": "Dark Red",
+      "soldNewTimes": 1136,
+      "soldNewQty": 28989,
+      "soldNewQtyAvgDkk": 0.38,
+      "stockNewLots": 1588,
+      "stockNewQty": 131600,
+      "stockNewMinDkk": 0.07,
+      "stockNewQtyAvgDkk": 0.48
+    },
+    {
+      "blColorId": 63,
+      "blColorName": "Dark Blue",
+      "soldNewTimes": 1232,
+      "soldNewQty": 199399,
+      "soldNewQtyAvgDkk": 0.14,
+      "stockNewLots": 2512,
+      "stockNewQty": 2398525,
+      "stockNewMinDkk": 0.03,
+      "stockNewQtyAvgDkk": 0.28
+    },
+    {
+      "blColorId": 85,
+      "blColorName": "Dark Bluish Gray",
+      "soldNewTimes": 6360,
+      "soldNewQty": 190962,
+      "soldNewQtyAvgDkk": 0.35,
+      "stockNewLots": 3056,
+      "stockNewQty": 417869,
+      "stockNewMinDkk": 0.04,
+      "stockNewQtyAvgDkk": 0.53
+    },
+    {
+      "blColorId": 86,
+      "blColorName": "Light Bluish Gray",
+      "soldNewTimes": 6883,
+      "soldNewQty": 235684,
+      "soldNewQtyAvgDkk": 0.24,
+      "stockNewLots": 4161,
+      "stockNewQty": 1325470,
+      "stockNewMinDkk": 0.04,
+      "stockNewQtyAvgDkk": 0.52
+    },
+    {
+      "blColorId": 88,
+      "blColorName": "Reddish Brown",
+      "soldNewTimes": 2538,
+      "soldNewQty": 150172,
+      "soldNewQtyAvgDkk": 0.23,
+      "stockNewLots": 3225,
+      "stockNewQty": 771531,
+      "stockNewMinDkk": 0.07,
+      "stockNewQtyAvgDkk": 0.39
+    },
+    {
+      "blColorId": 152,
+      "blColorName": "Light Aqua",
+      "soldNewTimes": 622,
+      "soldNewQty": 89909,
+      "soldNewQtyAvgDkk": 0.11,
+      "stockNewLots": 2769,
+      "stockNewQty": 1993475,
+      "stockNewMinDkk": 0.03,
+      "stockNewQtyAvgDkk": 0.24
+    },
+    {
+      "blColorId": 156,
+      "blColorName": "Medium Azure",
+      "soldNewTimes": 1032,
+      "soldNewQty": 156135,
+      "soldNewQtyAvgDkk": 0.16,
+      "stockNewLots": 2465,
+      "stockNewQty": 586361,
+      "stockNewMinDkk": 0.02,
+      "stockNewQtyAvgDkk": 0.26
+    },
+    {
+      "blColorId": 220,
+      "blColorName": "Coral",
+      "soldNewTimes": 516,
+      "soldNewQty": 43851,
+      "soldNewQtyAvgDkk": 0.2,
+      "stockNewLots": 2307,
+      "stockNewQty": 436530,
+      "stockNewMinDkk": 0.04,
+      "stockNewQtyAvgDkk": 0.31
+    },
+    {
+      "blColorId": 236,
+      "blColorName": "Neon Yellow",
+      "soldNewTimes": 221,
+      "soldNewQty": 17343,
+      "soldNewQtyAvgDkk": 0.34,
+      "stockNewLots": 1288,
+      "stockNewQty": 122245,
+      "stockNewMinDkk": 0.07,
+      "stockNewQtyAvgDkk": 0.53
+    }
+  ]
+}

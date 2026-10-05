@@ -1,0 +1,16 @@
+# PhotoBrick behind Caddy: automatic HTTPS, compression, reverse proxy to the Go server.
+#
+# Domain: replace photobrick.example with the real name. photobrick.dk, the old app's domain, was not
+# registered (DNS answered NXDOMAIN on 2026-09-24); register it again or pick another name. LEGO's Fair
+# Play policy rules out "LEGO" in the domain.
+#
+# Install: copy this site block into /etc/caddy/Caddyfile, then run `sudo systemctl reload caddy`.
+# The Go server sets the security headers (CSP and friends) and cache headers itself.
+
+photobrick.example {
+	encode zstd gzip
+	reverse_proxy 127.0.0.1:8080
+
+	# Once HTTPS works for the domain and every subdomain, consider HSTS. It is hard to undo.
+	# header Strict-Transport-Security "max-age=31536000"
+}

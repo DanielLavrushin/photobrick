@@ -1,0 +1,12 @@
+{
+  "name": "@photobrick/palette-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Builds packages/engine/src/palette/*.json from the Rebrickable CSV downloads.",
+  "scripts": {
+    "build-palette": "node --experimental-strip-types --disable-warning=ExperimentalWarning src/build.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "source": "lego.com da-dk Pick a Brick, element search for LEGO design 35381 (Rebrickable 98138), read from the PickABrickQuery GraphQL responses with a headless browser. All elements had maxOrderQuantity null (no per-order cap).",
+  "date": "2026-09-24",
+  "market": "DK",
+  "currency": "DKK",
+  "part": "98138",
+  "designId": "35381",
+  "elements": [
+    {
+      "elementId": "6284070",
+      "colorId": 0,
+      "name": "Black",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284575",
+      "colorId": 1,
+      "name": "Blue",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6396247",
+      "colorId": 2,
+      "name": "Green",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6311437",
+      "colorId": 3,
+      "name": "Dark Turquoise",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284574",
+      "colorId": 4,
+      "name": "Red",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322821",
+      "colorId": 5,
+      "name": "Dark Pink",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6353793",
+      "colorId": 10,
+      "name": "Bright Green",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284577",
+      "colorId": 14,
+      "name": "Yellow",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284572",
+      "colorId": 15,
+      "name": "White",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284573",
+      "colorId": 19,
+      "name": "Tan",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284582",
+      "colorId": 25,
+      "name": "Orange",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322816",
+      "colorId": 26,
+      "name": "Magenta",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284583",
+      "colorId": 27,
+      "name": "Lime",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322841",
+      "colorId": 28,
+      "name": "Dark Tan",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284587",
+      "colorId": 29,
+      "name": "Bright Pink",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6346374",
+      "colorId": 30,
+      "name": "Medium Lavender",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322820",
+      "colorId": 31,
+      "name": "Lavender",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284586",
+      "colorId": 70,
+      "name": "Reddish Brown",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284071",
+      "colorId": 71,
+      "name": "Light Bluish Gray",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284596",
+      "colorId": 72,
+      "name": "Dark Bluish Gray",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6315196",
+      "colorId": 78,
+      "name": "Light Nougat",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284589",
+      "colorId": 84,
+      "name": "Medium Nougat",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6476247",
+      "colorId": 85,
+      "name": "Dark Purple",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE",
+      "note": "The design search listed this element as the selected product without a status; a search for 98138 the same day returned it as InStock at the same price."
+    },
+    {
+      "elementId": "6343472",
+      "colorId": 92,
+      "name": "Nougat",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284598",
+      "colorId": 158,
+      "name": "Yellowish Green",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6238890",
+      "colorId": 179,
+      "name": "Flat Silver",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322822",
+      "colorId": 191,
+      "name": "Bright Light Orange",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6343806",
+      "colorId": 226,
+      "name": "Bright Light Yellow",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284584",
+      "colorId": 272,
+      "name": "Dark Blue",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6238891",
+      "colorId": 297,
+      "name": "Pearl Gold",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322813",
+      "colorId": 308,
+      "name": "Dark Brown",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284585",
+      "colorId": 320,
+      "name": "Dark Red",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322824",
+      "colorId": 321,
+      "name": "Dark Azure",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322819",
+      "colorId": 322,
+      "name": "Medium Azure",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322818",
+      "colorId": 323,
+      "name": "Light Aqua",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284595",
+      "colorId": 326,
+      "name": "Olive Green",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322842",
+      "colorId": 379,
+      "name": "Sand Blue",
+      "priceDkk": 0.31,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6322840",
+      "colorId": 484,
+      "name": "Dark Orange",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6284592",
+      "colorId": 1000,
+      "name": "Glow in Dark White",
+      "priceDkk": 1.5,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6311436",
+      "colorId": 1050,
+      "name": "Coral",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    },
+    {
+      "elementId": "6376825",
+      "colorId": 1062,
+      "name": "Vibrant Yellow",
+      "priceDkk": 0.36,
+      "status": "AVAILABLE"
+    }
+  ]
+}

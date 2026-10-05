@@ -1,0 +1,15 @@
+node_modules/
+dist/
+!server/internal/webui/dist/
+server/internal/webui/dist/*
+!server/internal/webui/dist/.gitkeep
+*.tsbuildinfo
+coverage/
+.vite/
+/out/
+/bin/
+tools/palette/.cache/
+test-results/
+.e2e/
+.DS_Store
+*.log

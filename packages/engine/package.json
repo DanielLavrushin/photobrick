@@ -1,0 +1,17 @@
+{
+  "name": "@photobrick/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pure TypeScript mosaic engine: resampling, colour matching, parts list, exports, share codec.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./palette/*.json": "./src/palette/*.json"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json",
+    "bench": "node --experimental-strip-types bench/bench.ts"
+  }
+}

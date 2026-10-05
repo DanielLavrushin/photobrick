@@ -1,0 +1,27 @@
+{
+  "name": "photobrick",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.29.2",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @photobrick/web dev",
+    "build": "pnpm --filter @photobrick/web build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "eslint .",
+    "palette": "pnpm --filter @photobrick/palette-tool build-palette"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "@types/node": "^22.20.4",
+    "eslint": "^10.11.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "globals": "^17.12.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.70.1",
+    "vitest": "^5.0.1"
+  }
+}
